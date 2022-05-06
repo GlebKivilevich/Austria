@@ -142,7 +142,7 @@ let windowObjectReference;
 let FuncGoHome = function (btn) {
   btn.addEventListener("click", (e) => {
     e.preventDefault();
-    windowObjectReference = window.open("home", "_blank"); 
+    windowObjectReference = window.open("https://glebkivilevich.github.io/Home/", "_blank"); 
   });
 };
 
@@ -155,7 +155,7 @@ const btnGoSupp = document.querySelector(".goSupp");
 let FuncGoSupp = function (btn) {
   btn.addEventListener("click", (e) => {
     e.preventDefault();
-    windowObjectReference = window.open("supp", "_blank"); 
+    windowObjectReference = window.open("https://glebkivilevich.github.io/Supliers/", "_blank"); 
   });
 };
 FuncGoSupp(btnGoSupp);
